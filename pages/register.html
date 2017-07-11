@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="cmn-Hans-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../resource/favicon_32X32.ico">
+  <title>用户注册</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+  <header id="header"></header>
+  <main class="login-box">
+    <h1>注&nbsp;&nbsp;&nbsp;&nbsp;册</h1>
+    <p class="register-info">已经是我们的会员？<a href="login.html">登录</a></p>
+    <form class="form-box">
+      <div class="form-group">
+        <label>注册账号</label>
+        <input type="email" data-type="username" class="form-ctrl" id="register-username" placeholder="用户注册邮箱号">
+        <p class="error-info"></p>
+      </div>
+      <div class="form-group">
+        <label>登录密码</label>
+        <input type="password" data-type="password" class="form-ctrl" id="register-password" placeholder="请输入6~16的密码" maxlength="16">
+        <p class="error-info"></p>
+      </div>
+      <div class="form-group">
+        <label>确认密码</label>
+        <input type="password" data-type="confirmPwd" class="form-ctrl" id="confirm-password" placeholder="请输入6~16的密码" maxlength="16">
+        <p class="error-info"></p>
+      </div>
+      <div class="form-group">
+        <button type="button" class="form-ctrl form-register" id="register-submit" disabled>提&nbsp;&nbsp;&nbsp;&nbsp;交</button>
+      </div>
+    </form>
+  </main>
+
+  <footer id="footer"></footer>
+  <script src="../js/common.js"></script>
+  <script src="../js/login.js"></script>
+</body>
+</html>

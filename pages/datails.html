@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cmn-Hans-CN">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../resource/favicon_32X32.ico">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/subpage.css">
+    <link rel="stylesheet" href="../css/datails.css">
+  </head>
+  <body>
+    <header id="header"></header>
+    <main class="container">
+      <div class="goods-datails">
+        <div class="datails-slider fl">
+          <figure class="main-goods-img">
+            <div class="loading">Loading...</div>
+          </figure>
+          <ul class="slider-img-list"></ul>
+        </div>
+        <div class="goods-info fr">
+          <h1 class="goods-name">loading...</h1>
+          <p class="goods-tag">
+            <span>loading...</span>
+          </p>
+          <div class="goods-price">
+            <div class="price">
+              <span class="up">￥</span>
+              <span class="num" >0</span>
+              <span class="down">元</span>
+              <span class="goods-old-price"></span>
+            </div>
+            <div class="price">
+              <span class="up">￥</span>
+              <span class="num">0</span>
+              <span class="down">元</span>
+            </div>
+          </div>
+          <p>
+            <span>原始购买价格：</span>
+            <span class="old-price">0</span>
+            <span>元</span></p>
+          <p>
+            <span>积分：</span>
+            <span class="integral">loading...</span>
+            <a href="#">了解积分规则</a>
+          </p>
+          <p>
+            <span> 库存数量：</span>
+            <span class="goods-stock">0</span>
+          </p>
+          <div class="goods-ctrl">
+          <div class="count-group">
+            <input type="text" readonly value="0">
+            <div class="count-ctrl">
+              <button class="add">+</button>
+              <button class="minus" disabled>-</button>
+            </div>
+          </div>
+          <button type="button" class="btn btn-buy">立即购买</button><button type="button" class="btn btn-shopCar">加入购物车</button></div>
+          <div>
+            <button class="btn btn-service"></button>
+          </div>
+          <p class="hint">户里服务： 该商品在仓库，23点前完成下单可在后天（5月15日）送达/该商品在用户家中，23点前完成下单，可在（5天后）送达</p>
+        </div>
+      </div>
+    <article class="goods-describe">
+      <section>
+        <h2 class="desc-title">商品规格</h2>
+        <table class="desc-content" id="desc-standard">
+        </table>
+      </section>
+      <section>
+        <h2 class="desc-title">商品详情</h2>
+        <div class="desc-content" id="desc-datails">
+        </div>
+      </section>
+      <section>
+        <h2 class="desc-title">送货</h2>
+        <div class="desc-content" id="desc-delivery">
+
+        </div>
+      </section>
+      <section>
+        <h2 class="desc-title">推荐商品</h2>
+        <div class="desc-content" id="desc-recommend">
+
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer id="footer"></footer>
+  <script src="../js/common.js"></script>
+  <script src="../js/datails.js"></script>
+  </body>
+</html>

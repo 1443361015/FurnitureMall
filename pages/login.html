@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cmn-Hans-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../resource/favicon_32X32.ico">
+  <title>用户登录</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+  <header id="header"></header>
+  <main class="login-box">
+    <h1>登&nbsp;&nbsp;&nbsp;&nbsp;录</h1>
+    <p class="register-info">还不是我们的会员？<a href="register.html">注册</a></p>
+    <form class="form-box">
+      <div class="form-group">
+        <label>账号</label>
+        <input type="email" data-type="username" class="form-ctrl"
+        id="login-username" placeholder="用户注册邮箱号">
+        <p class="error-info"></p>
+      </div>
+
+      <div class="form-group">
+        <label>密码</label>
+        <input type="password" data-type="password" class="form-ctrl" id="login-password" placeholder="请输入6~16的密码" maxlength="16">
+        <p class="error-info"></p>
+      </div>
+      <div class="form-group">
+        <a href="#" class="forget-pwd">忘记密码?</a>
+      </div>
+      <div class="form-group">
+        <button type="button" class="form-ctrl form-login" id="login-submit" disabled>登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+      </div>
+    </form>
+  </main>
+  <footer id="footer"></footer>
+  <script src="../js/common.js"></script>
+  <script src="../js/login.js"></script>
+</body>
+</html>

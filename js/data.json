@@ -1,0 +1,142 @@
+{
+  "header": {
+    "address": ["成都地区","北京地区","上海地区","广州地区","深圳地区","杭州地区","浙江地区","丽江地区"],
+    "nav": {
+      "sofas":["沙发","sofas","单人位","双人位","三人位","休闲沙发","转角沙发"],
+      "tables":["桌椅","tables/chairs","餐桌","餐椅","书桌","凳子","电脑桌","休闲椅","梳妆台","户外椅","其他"],
+      "beds":["床","beds","1.5米","1.8米","其他"],
+      "storage":["柜","storage","衣柜","储物柜","书柜","电视柜","鞋柜","床头柜","其他"],
+      "more":["更多","more","综合产品","日用家居","家居饰品","其他"]
+    }
+  },
+  "footer": {
+    "title": "生活要过得朴素而有味道，但不用过得奢华。",
+    "tag": ["环保","低价","安全","省心","快捷"],
+    "tagDesc": ["无甲醛 大自然","低于购买价6折","专业清洁消毒处理","专业物流配送安装","24小时内送货"],
+    "copyRight": "蜀ICP备15028224号  成都户里科技有限公司"
+  },
+  "userInfo":{
+    "username": ["sakura@qq.com"],
+    "password": ["huangsiyuan"],
+    "integral": 99
+  },
+  "goods": [
+    {
+      "goodsId": "1",
+      "goodsType":"sofas",
+      "goodsName": "黄色坐垫白沙发",
+      "goodsTag":"双人位",
+      "goodsStock": "12",
+      "goodsDatailsImgNum":"5",
+      "goodsDelivery":"成都市绕城内满699元可享受免费送货政策，未满金额或者绕城外地区收取99元运费。",
+      "goodsOldPrice": "123",
+      "goodsSize":"1260*760*560mm",
+      "goodsTexture":"实木/布艺",
+      "goodsColor":"亚麻色",
+      "goodsPrice": "123"
+    },{
+      "goodsId": "2",
+      "goodsType":"sofas",
+      "goodsName": "客厅转角沙发",
+      "goodsTag":"双人位",
+      "goodsStock": "14",
+      "goodsDatailsImgNum":"5",
+      "goodsDelivery":"成都市绕城内满699元可享受免费送货政策，未满金额或者绕城外地区收取99元运费。",
+      "goodsOldPrice": "222",
+      "goodsSize":"1260*760*560mm",
+      "goodsTexture":"实木/布艺",
+      "goodsColor":"亚麻色",
+      "goodsPrice": "221"
+    },{
+      "goodsId": "3",
+      "goodsType":"sofas",
+      "goodsName": "休闲大型沙发",
+      "goodsTag":"双人位",
+      "goodsStock": "15",
+      "goodsDatailsImgNum":"5",      "goodsDelivery":"成都市绕城内满699元可享受免费送货政策，未满金额或者绕城外地区收取99元运费。",
+      "goodsOldPrice": "333",
+      "goodsSize":"1260*760*560mm",
+      "goodsTexture":"实木/布艺",
+      "goodsColor":"亚麻色",
+      "goodsPrice": "332"
+    },{
+      "goodsId": "4",
+      "goodsType":"sofas",
+      "goodsName": "粉红小沙发",
+      "goodsTag":"双人位",
+      "goodsStock": "129",
+      "goodsDatailsImgNum":"5",
+      "goodsDelivery":"成都市绕城内满699元可享受免费送货政策，未满金额或者绕城外地区收取99元运费。",
+      "goodsOldPrice": "",
+      "goodsSize":"1260*760*560mm",
+      "goodsTexture":"实木/布艺",
+      "goodsColor":"亚麻色",
+      "goodsPrice": "332"
+    },{
+      "goodsId": "5",
+      "goodsType":"sofas",
+      "goodsName": "白色休闲沙发",
+      "goodsTag":"双人位",
+      "goodsStock": "120",
+      "goodsDatailsImgNum":"5",
+      "goodsDelivery":"成都市绕城内满699元可享受免费送货政策，未满金额或者绕城外地区收取99元运费。",
+      "goodsOldPrice": "999",
+      "goodsSize":"1260*760*560mm",
+      "goodsTexture":"实木/布艺",
+      "goodsColor":"亚麻色",
+      "goodsPrice": "5332"
+    },{
+      "goodsId": "6",
+      "goodsType":"sofas",
+      "goodsName": "粉红小沙发",
+      "goodsTag":"双人位",
+      "goodsStock": "59",
+      "goodsDatailsImgNum":"5",      "goodsDelivery":"成都市绕城内满699元可享受免费送货政策，未满金额或者绕城外地区收取99元运费。",
+      "goodsOldPrice": "8888",
+      "goodsSize":"1260*760*560mm",
+      "goodsTexture":"实木/布艺",
+      "goodsColor":"亚麻色",
+      "goodsPrice": "4444"
+    },{
+      "goodsId": "7",
+      "goodsType":"sofas",
+      "goodsName": "墨绿大靠背沙发",
+      "goodsTag":"双人位",
+      "goodsStock": "99",
+      "goodsDatailsImgNum":"5",
+      "goodsDelivery":"成都市绕城内满699元可享受免费送货政策，未满金额或者绕城外地区收取99元运费。",
+      "goodsOldPrice": "12999",
+      "goodsSize":"1260*760*560mm",
+      "goodsTexture":"实木/布艺",
+      "goodsColor":"亚麻色",
+      "goodsPrice": "998"
+    },{
+      "goodsId": "8",
+      "goodsType":"sofas",
+      "goodsName": "柜式沙发",
+      "goodsTag":"双人位",
+      "goodsStock": "129",
+      "goodsDatailsImgNum":"5",
+      "goodsDelivery":"成都市绕城内满699元可享受免费送货政策，未满金额或者绕城外地区收取99元运费。",
+      "goodsOldPrice": "6666",
+      "goodsSize":"1260*760*560mm",
+      "goodsTexture":"实木/布艺",
+      "goodsColor":"亚麻色",
+      "goodsPrice": "5888"
+    },{
+      "goodsId": "9",
+      "goodsType":"sofas",
+      "goodsName": "绿野仙踪主题小沙发",
+      "goodsTag":"双人位",
+      "goodsStock": "129",
+      "goodsDatailsImgNum":"5",
+      "goodsDelivery":"成都市绕城内满699元可享受免费送货政策，未满金额或者绕城外地区收取99元运费。",
+      "goodsOldPrice": "",
+      "goodsSize":"1260*760*560mm",
+      "goodsTexture":"实木/布艺",
+      "goodsColor":"亚麻色",
+      "goodsPrice": "332"
+    }
+
+  ]
+}

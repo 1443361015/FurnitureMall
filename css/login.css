@@ -1,0 +1,93 @@
+/*登录容器*/
+.login-box {
+  width: 400px;
+	display: table;
+  margin: 40px auto;
+  text-align: center;
+  color: #333;
+}
+/*标题*/
+.login-box > h1{
+	font: 32px/50px "微软雅黑";
+  text-align: center;
+  font-weight: 500;
+  padding-top: 40px;
+}
+.form-box{
+  margin: 30px auto;
+}
+.register-info{
+  color: #666;
+  font-size: 18px;
+}
+.register-info a{
+  color: #4375ad;
+  text-decoration: underline;
+}
+.form-group{
+  width: 100%;min-height: 30px;
+  line-height: 30px;
+  position: relative;
+}
+.form-group > label{
+  display: block;
+  font-size: 17px;
+  line-height: 50px;
+  text-align: left;
+}
+.error-info {
+	position: absolute;
+  right: 0;top: 0;
+  line-height: 50px;
+  color: #ef4c4c;
+  text-align: right;
+}
+.form-ctrl{
+  height: 45px;width: 100%;
+  outline: none;
+  padding: 0 1em;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.form-ctrl:focus{
+  border-color: #82c353;
+  box-shadow: 0 0 4px #82c353;
+}
+.form-error{
+  border-color: #ef4c4c;
+  box-shadow: 0 0 4px #ef4c4c;
+}
+.form-login, .form-register{
+  color: #fff;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  line-height: 50px;
+  margin-top: 10px;
+  background-color: #82c353;
+}
+.form-register{
+  margin-top: 50px;
+}
+.form-login:disabled,.form-register:disabled{
+  background-color: #838281;
+  cursor: default;
+  color: #fff;
+}
+.forget-pwd{
+  padding: 10px 0;
+  font-size: 17px;
+  text-decoration: underline;
+  text-align: right;
+  float: right;
+}
+.register-info a:hover,.forget-pwd:hover{
+  color: #4375ad;
+}
+
+
+
+

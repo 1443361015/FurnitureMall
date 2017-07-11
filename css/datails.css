@@ -1,0 +1,268 @@
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.goods-datails{
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px 0;
+  overflow: hidden;
+}
+.datails-slider {
+	width: 595px;
+}
+.main-goods-img {
+	width: 100%;height: 437px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.main-goods-img img{
+	width: 100%;min-height: 100%;
+  position: absolute;
+  transition: all .3s linear;
+}
+
+.slider-img-list {
+	width: 100%;
+  margin: 15px auto;
+  font-size: 0;
+}
+.slider-img-list li{
+  width: 120px;height: 112px;
+  transition: all .1s linear;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+	display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.slider-img-list li:hover,.slider-img-list li.active{
+  border:3px solid #82c353;
+}
+.slider-img-list img{
+	width: 100%;min-height: 100%;
+  position: absolute;
+}
+
+.goods-datails .goods-info {
+	width: calc(100% - 600px);
+  font-size: 18px;
+  text-align: left;
+  box-sizing: border-box;
+  line-height: 35px;
+  padding: 10px 0 10px 60px;
+}
+.goods-tag {
+	line-height: 60px;
+}
+.goods-tag span{
+  padding: 0 20px;
+  border-left: 1px solid #ccc;
+}
+.goods-tag span:first-of-type{
+  padding-left: 0;
+  border-left: 0;
+}
+.goods-tag span:last-of-type{
+  border-right: 0;
+  padding-right: 0;
+}
+.goods-datails .goods-name {
+	font-size: 42px;
+}
+.goods-datails .goods-price {
+	width: 100%;
+  margin: 30px auto 20px;
+}
+.goods-price .price {
+  color: #333;
+  font-size: 13px;
+  line-height: .95;
+  font-weight: bold;
+  margin-right: 10px;
+  position: relative;
+	display: inline-block;
+  vertical-align: middle;
+}
+.goods-datails .old-price{
+  color: #333;
+  font-size: 20px;
+  padding: 0 .2em;
+  font-weight: bold;
+}
+.goods-price .price:last-of-type .num{
+  color: #d8170e;
+}
+.goods-price .num{
+  font-size: 54px;
+}
+.goods-price .up{
+  vertical-align: top;
+}
+.goods-price .down{
+  vertical-align: bottom;
+}
+.goods-old-price{
+  display: block;
+  height: 2px;width: 110%;
+  background-color: #d91f1a;
+  position: absolute;
+  top: 50%;left: 50%;
+  transform: translate(-50%,-50%) rotate(15deg);
+}
+.integral{
+  padding: 0 1em;
+}
+.integral + a{
+	text-decoration: underline;
+}
+.goods-ctrl{
+  margin: 10px auto 20px;
+  overflow: hidden;
+}
+.count-group {
+  height: 50px;width: 120px;
+  font-size: 0;
+  float: left;
+  border-radius: 10px;
+  position: relative;
+	display: inline-block;
+}
+.count-group input{
+	height: 100%;width: 100px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  padding: 0 30px 0 15px;
+}
+.count-ctrl {
+  width: 30px;
+	display: inline-block;
+  position: absolute;
+  right: 0;top: 0;
+  margin-right: 20px;
+  overflow: hidden;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  border-radius: 0 10px 10px 0;
+}
+.count-ctrl button{
+	display: block;
+  width: 100%;height: 24px;
+  color: #222;
+  border: 0;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: bold;
+  background-color: #ccc;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+}
+.count-ctrl button:disabled{
+  background-color: #aaa;
+  color: #eee;
+  cursor: not-allowed;
+}
+.count-ctrl .minus{
+  border-top: 1px solid #aaa;
+}
+.goods-datails .btn{
+  height: 50px;width: 180px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 22px;
+  border-radius: 6px;
+  border: 0;
+}
+.btn-buy, .btn-service{
+  color: #fff;
+  background-color: #d91f1a;
+}
+.goods-datails .btn-shopCar {
+	border: 1px solid #ccc;
+  background-color: #fff;
+  margin-left: 20px;
+  color: #666;
+}
+.btn-service{
+  background: url(../resource/ClientService.png) no-repeat center top;
+  background-size: 180px 100px;
+}
+.count-ctrl .minus:hover, .count-ctrl .add:hover{
+  background-color: #eee;
+  color: #222;
+}
+.btn-shopCar:hover {
+	background-color: #fafafa;
+}
+.btn-buy:hover {
+	background-color: #f03732;
+}
+.btn-service:hover{
+  background-position: center bottom;
+}
+.hint{
+  width: 100%;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px .75em;
+  margin: 10px auto 10px;
+  box-sizing: border-box;
+  background-color: #666;
+}
+/*详情描述*/
+/*详情标题*/
+.desc-title {
+	width: 100%;height: 56px;
+  margin-bottom: 24px;
+  line-height: 56px;
+  font-weight: 500;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  font-size: 26px;
+  color: #444;
+}
+/*详情内容*/
+.desc-content {
+	width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.desc-content > img{
+  width: 90%;
+  margin: 0 5%;
+}
+.loading{
+  height: 100%;width: 100%;
+  text-align: center;
+  line-height: 435px;
+  font-size: 48px;
+  font-weight: bold;
+  background-color: #aaa;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
